@@ -48,8 +48,8 @@ h2, h4 {
 
 .Button {
   margin: 0 auto; 
-  width: 10rem;
-  height: 3rem;
+  width: 9.5rem;
+  height: 2.5rem;
   visibility: hidden;
   z-index: -1;
   position: fixed;
@@ -60,7 +60,7 @@ h2, h4 {
   color: black;
   font-family: 'Oswald', sans-serif;
   text-align: center;  
-  font-size: 1.3rem;   
+  font-size: 1rem;   
   text-shadow: 1px 1px grey;  
   background-color:  #fad957ef;
   cursor: pointer;
@@ -76,8 +76,8 @@ h2, h4 {
 
 
   @keyframes showbutton {
-    0%{visibility: hidden;  width: 10rem; height: 3rem; opacity: 0.05; font-size: 1.3rem; z-index: -1;}
-    100%{visibility: visible; width: 15rem; height: 5rem; opacity: 1; font-size: 1.5rem; z-index: 2;}
+    0%{visibility: hidden;  width: 9.5rem; height: 2.5rem; opacity: 0.05; font-size: 1rem; z-index: -1;}
+    100%{visibility: visible; width: 11rem; height: 3.5rem; opacity: 1; font-size: 1.2rem; z-index: 2;}
   }
 
 

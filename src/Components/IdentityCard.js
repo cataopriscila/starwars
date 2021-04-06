@@ -48,13 +48,16 @@ class IdentityCard extends Component {
 
                                 <button className={Styles.myIDCard}
                                 disabled>
-                                <h1>{IDcard.name.toLowerCase()}</h1>
-                                <h3>Birth Year: {IDcard.birth_year}</h3>
-                                <h3>Height: {IDcard.height}</h3> 
-                                <h3>Gender: {IDcard.gender}</h3>
-                                <h3>Mass: {IDcard.mass}</h3>
-                                <h3>Eyes: {IDcard.eye_color}</h3> 
-                                <h3>Hair: {IDcard.hair_color}</h3>
+                                <h2>{IDcard.name.toLowerCase()}</h2>
+                                <div className= {Styles.Details}>
+                                    <h4>Birth Year: {IDcard.birth_year}</h4>
+                                    <h4>Height: {IDcard.height}</h4> 
+                                    <h4>Gender: {IDcard.gender}</h4>
+                                    <h4>Mass: {IDcard.mass}</h4>
+                                    <h4>Eyes: {IDcard.eye_color}</h4> 
+                                    <h4>Hair: {IDcard.hair_color}</h4>  
+                                </div>
+                              
                                 </button>                      
                                       
                         <img alt='' src={SymbolSW}/>
