@@ -27,18 +27,17 @@ class CrawlingText extends Component {
                            
                 <div className={Styles.Fading}/>                
                     
-                <div className={Styles.CrawlingContainer}>
-                
-                <div className={Styles.TextContent}>
-                <h4>FINAL EPISODE</h4>
-                <h2><strong>THE END OF OUR SPECIES</strong></h2>
-                <h1>The Earth has just been destroyed by the imperial troopers and all human species has come into an end. That's what they tought. You, though, are the only survivor.
-                </h1>
-                <h1>In order to scape from this planet, take on a new identity and blend into any spaceship crew you must.
-                </h1> 
-                <h1>Here you're gonna find out who you really are now... 
-                </h1>             
-                </div>                 
+                <div className={Styles.CrawlingContainer}>                
+                    <div className={Styles.TextContent}>
+                    <h4>FINAL EPISODE</h4>
+                    <h2><strong>THE END OF OUR SPECIES</strong></h2>
+                    <h1>The Earth has just been destroyed by the imperial troopers and all human species has come into an end. That's what they tought. You, though, are the only survivor.
+                    </h1>
+                    <h1>In order to scape from this planet, take on a new identity and blend into any spaceship crew you must.
+                    </h1> 
+                    <h1>Here you're gonna find out who you really are now... 
+                    </h1>             
+                    </div>                 
                 </div>
                 
                 <button 

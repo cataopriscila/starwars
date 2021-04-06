@@ -3,14 +3,13 @@ import AudioButton from './Components/AudioButton';
 import CrawlingText from './Components/CrawlingText';
 import IdentityCard from './Components/IdentityCard';
 
-function App () { 
+function App () {
 
   function playAudio () {
      const audioEl = document.getElementsByClassName("AudioElement")[0];
     audioEl.play();
+  } 
 
-  }
- 
     return ( 
       <div>
         <AudioButton playAudio={playAudio}
@@ -18,9 +17,7 @@ function App () {
         <CrawlingText>
           <IdentityCard/>         
         </CrawlingText>
-      </div>
-                   
-                  
+      </div>                  
   );
   }
 
