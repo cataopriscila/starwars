@@ -1,0 +1,24 @@
+
+.ActivateButton {  
+    width: 8rem;
+    height: 5rem;
+    position: fixed;
+    top: 3%;
+    left: 2%;
+    z-index: 1;
+    line-height: 0.5;
+    border: 0.5px solid whitesmoke;
+    border-radius: 5px;
+    background-color: transparent;  
+    color:whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;  
+    font-size: 0.7rem;   
+    cursor: pointer;  
+    
+  }
+  
+  .ActivateButton p img {
+    width: 30px;
+    filter: invert(100%); 
+  }

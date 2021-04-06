@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import AudioButton from './Components/AudioButton';
+import CrawlingText from './Components/CrawlingText';
+import IdentityCard from './Components/IdentityCard';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+function App () { 
+
+  function playAudio () {
+     const audioEl = document.getElementsByClassName("AudioElement")[0];
+    audioEl.play();
+
+  }
+ 
+    return ( 
+      <div>
+        <AudioButton playAudio={playAudio}
+        />
+        <CrawlingText>
+          <IdentityCard/>         
+        </CrawlingText>
+      </div>
+                   
+                  
   );
-}
+  }
 
 export default App;
