@@ -1,7 +1,7 @@
 
-.ActivateButton {  
-    width: 8rem;
-    height: 5rem;
+.PlayButton,.PauseButton {  
+    width: 7rem;
+    height: 4.5rem;
     position: fixed;
     top: 3%;
     left: 2%;
@@ -13,12 +13,12 @@
     color:whitesmoke;
     font-family: 'Oswald', sans-serif;
     text-align: center;  
-    font-size: 0.7rem;   
-    cursor: pointer;  
-    
+    font-size: 0.65rem;   
+    cursor: pointer;      
   }
   
-  .ActivateButton p img {
+  .PlayButton p img, .PauseButton p img {
     width: 30px;
     filter: invert(100%); 
   }
+
