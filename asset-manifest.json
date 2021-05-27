@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/starwars/static/css/main.79dcff94.chunk.css",
+    "main.js": "/starwars/static/js/main.281846f0.chunk.js",
+    "main.js.map": "/starwars/static/js/main.281846f0.chunk.js.map",
+    "runtime-main.js": "/starwars/static/js/runtime-main.5ebf080e.js",
+    "runtime-main.js.map": "/starwars/static/js/runtime-main.5ebf080e.js.map",
+    "static/js/2.5704bbdc.chunk.js": "/starwars/static/js/2.5704bbdc.chunk.js",
+    "static/js/2.5704bbdc.chunk.js.map": "/starwars/static/js/2.5704bbdc.chunk.js.map",
+    "static/js/3.556280bd.chunk.js": "/starwars/static/js/3.556280bd.chunk.js",
+    "static/js/3.556280bd.chunk.js.map": "/starwars/static/js/3.556280bd.chunk.js.map",
+    "index.html": "/starwars/index.html",
+    "static/css/main.79dcff94.chunk.css.map": "/starwars/static/css/main.79dcff94.chunk.css.map",
+    "static/js/2.5704bbdc.chunk.js.LICENSE.txt": "/starwars/static/js/2.5704bbdc.chunk.js.LICENSE.txt",
+    "static/media/IdentityCard.module.css": "/starwars/static/media/Starjhol.ca4b8d66.woff",
+    "static/media/card.ea16d8c8.jpg": "/starwars/static/media/card.ea16d8c8.jpg",
+    "static/media/familystarwars.ea496b5a.jpg": "/starwars/static/media/familystarwars.ea496b5a.jpg",
+    "static/media/pausebutton.5527f600.svg": "/starwars/static/media/pausebutton.5527f600.svg",
+    "static/media/playbutton.bacb370b.svg": "/starwars/static/media/playbutton.bacb370b.svg",
+    "static/media/symbolstarwars2.3317b651.jpg": "/starwars/static/media/symbolstarwars2.3317b651.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ebf080e.js",
+    "static/js/2.5704bbdc.chunk.js",
+    "static/css/main.79dcff94.chunk.css",
+    "static/js/main.281846f0.chunk.js"
+  ]
+}
