@@ -1,0 +1,25 @@
+.PlayButton,
+.PauseButton {
+  width: 7rem;
+  height: 4.5rem;
+  position: fixed;
+  top: 3%;
+  left: 2%;
+  z-index: 1;
+  line-height: 0.5;
+  border: 0.5px solid whitesmoke;
+  border-radius: 5px;
+  background-color: transparent;
+  color: whitesmoke;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 0.65rem;
+  cursor: pointer;
+}
+
+.PlayButton p img,
+.PauseButton p img {
+  padding-bottom: 0.5rem;
+  width: 1.5rem;
+  filter: invert(100%);
+}

@@ -1,0 +1,90 @@
+.Fading {
+  position: absolute;
+  width: 70%;
+  min-height: 80vh;
+  top: 0px;
+  background-image: linear-gradient(0deg, transparent, black 75%);
+  z-index: 1;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  height: 59.375rem;
+  perspective: 25rem;
+  font-size: 400%;
+  letter-spacing: 0.625rem;
+  line-height: 1.6;
+  text-align: justify;
+  color: #feda4a;
+}
+
+.CrawlingContainer {
+  position: relative;
+  top: 75rem;
+  transform-origin: 50% 100%;
+  animation: crawl 60s linear 3s;
+}
+
+h2,
+h4 {
+  text-align: center;
+}
+
+@keyframes crawl {
+  0% {
+    top: 75rem;
+    transform: rotateX(25deg) translateZ(0);
+  }
+  100% {
+    top: -375rem;
+    transform: rotateX(25deg) translateZ(-156.25rem);
+  }
+}
+
+.Button {
+  margin: 0 auto;
+  width: 9.5rem;
+  height: 2.5rem;
+  visibility: hidden;
+  z-index: -1;
+  position: fixed;
+  top: 7%;
+  border: 2px solid #fad957ef;
+  border-radius: 0.625rem;
+  box-shadow: 2px 2px 4px rgb(51, 51, 48);
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  text-shadow: 1px 1px grey;
+  background-color: #fad957ef;
+  cursor: pointer;
+  opacity: 0.05;
+  animation: showbutton 3s ease-in 9s forwards;
+  transition: transform 1s ease-in-out;
+}
+
+.Button:hover {
+  transform: scale(1.1);
+}
+
+@keyframes showbutton {
+  0% {
+    visibility: hidden;
+    width: 9.5rem;
+    height: 2.5rem;
+    opacity: 0.05;
+    font-size: 1rem;
+    z-index: -1;
+  }
+  100% {
+    visibility: visible;
+    width: 11rem;
+    height: 3.5rem;
+    opacity: 1;
+    font-size: 1.2rem;
+    z-index: 2;
+  }
+}
