@@ -28,8 +28,8 @@ class CrawlingText extends Component {
               className={Styles.Button}
               onClick={this.renderChild}
             >
-              {" "}
-              Skip Intro >>{" "}
+              
+              Skip Intro 
             </button>
 
             <div className={Styles.CrawlingContainer}>

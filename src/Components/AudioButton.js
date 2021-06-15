@@ -38,7 +38,7 @@ class AudioButton extends Component {
             onClick={this.pauseAudio}
           >
             <p>
-              <img alt="" src={PauseButton} />
+              <img alt="pause button" src={PauseButton} />
             </p>
             <p>PAUSE THEME SONG</p>
           </button>
@@ -49,7 +49,7 @@ class AudioButton extends Component {
             onClick={this.playAudio}
           >
             <p>
-              <img alt="" src={PlayButton} />
+              <img alt="play button" src={PlayButton} />
             </p>
             <p>PLAY THEME SONG</p>
           </button>
