@@ -10,7 +10,6 @@
 .Container {
   display: flex;
   justify-content: center;  
-  overflow: hidden;
   height: 100vh;   
   perspective: 25rem;
   font-size: 400%;
