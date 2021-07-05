@@ -4,6 +4,7 @@ import FamilySW from "../Files/familystarwars.jpg";
 import SymbolSW from "../Files/symbolstarwars2.jpg";
 import { Component } from "react";
 
+
 class IdentityCard extends Component {
   constructor() {
     super();
@@ -37,7 +38,7 @@ class IdentityCard extends Component {
     return (
       <>
         {showID ? (
-          <section>
+          
             <div className={Styles.IdentityCardContainer}>
               <div className={Styles.Title}>
                 <h1>may the force</h1>
@@ -59,10 +60,12 @@ class IdentityCard extends Component {
 
                 <img alt="" src={SymbolSW} />
               </div>
+              
             </div>
-          </section>
+            
+          
         ) : (
-          <section>
+          
             <div className={Styles.IdentityCardContainer}>
               <div className={Styles.Title}>
                 <h1>flip the card </h1>
@@ -80,7 +83,7 @@ class IdentityCard extends Component {
                 <img alt="" src={SymbolSW} />
               </div>
             </div>
-          </section>
+          
         )}
       </>
     );

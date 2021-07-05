@@ -15,25 +15,25 @@ class CrawlingText extends Component {
 
   render() {
     const { isButtonClicked } = this.state;
-
     return (
-      <>
-        {isButtonClicked ? (
+      <>      
+        {isButtonClicked? (
           <div>{this.props.children}</div>
         ) : (
-          <section>
-            <div className={Styles.Fading} />
+          <>
+          
+
+          <div className={Styles.Container}>
+          <div className={Styles.Fading} />
             <button
               type="button"
               className={Styles.Button}
               onClick={this.renderChild}
             >
-              
-              Skip Intro 
+              Skip Intro
             </button>
-
-            <div className={Styles.CrawlingContainer}>
-              <div className={Styles.TextContent}>
+            
+            <div className={Styles.CrawlingContainer}>              
                 <h4>FINAL EPISODE</h4>
                 <h2>
                   <strong>THE END OF OUR SPECIES</strong>
@@ -50,10 +50,10 @@ class CrawlingText extends Component {
                 <h1>Here you're gonna find out who you really are now...</h1>
               </div>
             </div>
-          </section>
+          </>          
         )}
-      </>
-    );
+     </> 
+    )
   }
 }
 
