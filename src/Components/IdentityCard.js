@@ -25,7 +25,7 @@ class IdentityCard extends Component {
     fetch(`https://swapi.py4e.com/api/people/${toRandom()}/`)
       .then((response) => response.json())
       .then((people) => {
-        console.log(people);
+        
         this.setState({
           IDcard: people,
         });
