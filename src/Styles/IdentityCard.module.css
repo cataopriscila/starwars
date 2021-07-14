@@ -97,17 +97,18 @@
   padding-bottom: 1.3rem;
   padding-left: 1rem;
   line-height: 2.2rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .myIDCard:hover {
-  transform: scale(1.05, 1.05);
+  transform: scale(1.05);
 }
 
 .myIDCard h2 {
-  flex: 1 1 1;
+  flex: 1 1 1; 
   align-self: center;
-  padding: 0.7rem;
+  padding: .7rem;
+  padding-bottom: 1.2rem;
   font-family: "Star Jedi Hollow";
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }

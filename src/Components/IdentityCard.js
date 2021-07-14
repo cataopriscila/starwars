@@ -11,6 +11,7 @@ class IdentityCard extends Component {
     this.state = {
       showID: false,
       IDcard: {},
+      planet: {}
     };
   }
 
@@ -21,20 +22,28 @@ class IdentityCard extends Component {
   };
 
   componentDidMount() {
-    const toRandom = () => Math.floor(Math.random() * 10) + 1;
-    fetch(`https://swapi.py4e.com/api/people/${toRandom()}/`)
-      .then((response) => response.json())
-      .then((people) => {
-        
-        this.setState({
-          IDcard: people,
-        });
-      })
-      .catch((error) => console.log(error));
+    const toRandom = Math.floor(Math.random() * 10) + 1;
+
+    fetch(`https://swapi.py4e.com/api/people/${toRandom}/`)
+    .then((response) => response.json())
+    .then((people) => {
+              console.log(people);
+              fetch(people.homeworld)
+              .then(response => response.json())
+              .then(planet => {
+                console.log(planet);
+                  this.setState({
+                    IDcard: people,
+                    planet: planet,
+                  });            
+              })
+              .catch((error) => console.log(error));
+              })    
+      
   }
 
   render() {
-    const { showID, IDcard } = this.state;
+    const { showID, IDcard, planet } = this.state;
     return (
       <>
         {showID ? (
@@ -52,7 +61,7 @@ class IdentityCard extends Component {
                     <h4>Birth Year: {IDcard.birth_year}</h4>
                     <h4>Height: {IDcard.height}</h4>
                     <h4>Gender: {IDcard.gender}</h4>
-                    <h4>Mass: {IDcard.mass}</h4>
+                    <h4>Planet: {planet.name}</h4>
                     <h4>Eyes: {IDcard.eye_color}</h4>
                     <h4>Hair: {IDcard.hair_color}</h4>
                   </div>
