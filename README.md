@@ -1,5 +1,5 @@
 
-A fun way to find out who are you in the Star Wars world!
+A fun way to find out who you are in the Star Wars world!
 
 1- Click on "Play Theme Song" button to make your experience better;
 
